@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu App de Automação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu App de Automação</h1>
+    </header>
+    <nav>
+        <a href="#inicio">Página Inicial</a>
+        <a href="#privacidade">Política de Privacidade</a>
+        <a href="#termos">Termos de Serviço</a>
+    </nav>
+    <section id="inicio">
+        <h2>Página Inicial</h2>
+        <p>Bem-vindo ao aplicativo de automação de relatórios no Looker Studio. Este aplicativo foi desenvolvido para ajudar na automação de relatórios, tornando processos mais eficientes e otimizados.</p>
+    </section>
+    <section id="privacidade">
+        <h2>Política de Privacidade</h2>
+        <p>Este aplicativo não coleta, armazena ou compartilha dados pessoais. Todos os dados acessados são processados localmente e usados exclusivamente para os fins pretendidos pela aplicação. Nenhuma informação é compartilhada com terceiros.</p>
+    </section>
+    <section id="termos">
+        <h2>Termos de Serviço</h2>
+        <p>Este aplicativo é fornecido "como está", sem garantias de qualquer tipo. O desenvolvedor não se responsabiliza por quaisquer danos decorrentes do uso deste aplicativo. O uso deste aplicativo implica na aceitação destes termos.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Meu App de Automação. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
